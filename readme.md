@@ -26,7 +26,7 @@ Create a build folder and build the project:
 $ mkdir build
 $ cd build
 $ meson ..
-$ ninja
+$ ninja # sudo ninja install
 $ ./foo
 ```
 
@@ -35,7 +35,7 @@ If install: true
 ```bash
 $ meson build --prefix=/usr # same folder
 $ cd build
-$ ninja
+$ ninja # sudo ninja install
 $ ./foo
 ```
 
